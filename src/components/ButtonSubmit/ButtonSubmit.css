@@ -1,0 +1,19 @@
+button {
+    all: unset;
+    width: 180px;
+    height: 30px;
+    margin-top: 20px;
+    background-color: rgb(228, 79, 20);
+    border-radius: 8px;
+}
+
+button:hover {
+    cursor: pointer;
+    opacity: .8;
+}
+
+button:focus {
+    width: 179px;
+    height: 29px;
+    border: 1px solid rgb(230, 122, 60);
+}

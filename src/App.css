@@ -1,4 +1,10 @@
 .App {
+  width: 1350px;
+  height: 620px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
   text-align: center;
-  border: 1px solid #000000;
+  border: 1px solid #086c7e;
+  border-radius: 2px;
 }

@@ -1,10 +1,12 @@
 import './App.css';
-import InputField from './components/InputTextField/InputTextField';
+import ContainerSectionInputs from './components/ContainerSectionInputs/ContainerSectionInputs';
+import ContainerSectionOut from './components/ContainerSectionOut/ContaionerSectionOut';
 
 function App() {
   return (
     <div className="App">
-      <InputField />
+      <ContainerSectionInputs />
+      <ContainerSectionOut />
     </div>
   );
 }
