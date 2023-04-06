@@ -1,13 +1,14 @@
 import './App.css';
-import ContainerSectionInputs from './components/ContainerSectionInputs/ContainerSectionInputs';
-import ContainerSectionOut from './components/ContainerSectionOut/ContaionerSectionOut';
+import FormDados from './components/FormDados/FormDados';
+import LightDarkButton from './components/LightDarkButton/LightDarkButton';
+
 
 function App() {
   return (
-    <div className="App">
-      <ContainerSectionInputs />
-      <ContainerSectionOut />
-    </div>
+    <>
+      <LightDarkButton />
+      <FormDados />
+    </>
   );
 }
 

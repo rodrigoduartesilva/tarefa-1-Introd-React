@@ -1,9 +1,0 @@
-.out-section {
-    width: 40%;
-    height: 90%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    border: 1px solid black;
-}
