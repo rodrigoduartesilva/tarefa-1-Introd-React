@@ -34,7 +34,7 @@ const FormDados = () => {
 
     return (
         <>
-            <form onSubmit={handleSubmit}>
+            <form className='main' onSubmit={handleSubmit}>
                 <label htmlFor="input-nome">Nome:</label>
                 <input type="text"
                     id="input-nome"
