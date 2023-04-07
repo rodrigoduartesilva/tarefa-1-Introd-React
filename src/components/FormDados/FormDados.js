@@ -66,7 +66,7 @@ const FormDados = () => {
             </form>
             <div className='container-msg'>
                 <Mensagem>
-                    Seu nome é {textMessengeNome || 'usuário'}, sua idade é {textMessengeIdade || '?'} anos e seu email é {textMessengeEmail || '?'}
+                    Meu nome é {textMessengeNome || 'usuário'}, tenho {textMessengeIdade || '?'} anos e meu email é {textMessengeEmail || '?'}
                 </Mensagem>
             </div>
         </section>
