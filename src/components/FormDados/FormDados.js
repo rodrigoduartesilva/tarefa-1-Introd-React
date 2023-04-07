@@ -33,12 +33,13 @@ const FormDados = () => {
     }
 
     return (
-        <>
+        <section className='main-container'>
             <form className='main' onSubmit={handleSubmit}>
                 <label htmlFor="input-nome">Nome:</label>
                 <input type="text"
                     id="input-nome"
                     placeholder='Digite seu nome'
+                    required
                     value={inputNome}
                     onChange={handleChangeNome}
                 />
@@ -47,6 +48,7 @@ const FormDados = () => {
                 <input type="number"
                     text id="input-idade"
                     placeholder='Digite sua idade'
+                    required
                     value={inputIdade}
                     onChange={handleChangeIdade}
                 />
@@ -55,16 +57,19 @@ const FormDados = () => {
                 <input type="email"
                     id="input-email"
                     placeholder='Digite seu email'
+                    required
                     value={inputEmail}
                     onChange={handleChangeEmail}
                 />
 
                 <button type='submit'>Enviar</button>
             </form>
-            <Mensagem>
-                Seu nome é {textMessengeNome || 'usuário'}, sua idade é {textMessengeIdade || '?'} e seu email é {textMessengeEmail || '?'}
-            </Mensagem>
-        </>
+            <div className='container-msg'>
+                <Mensagem>
+                    Seu nome é {textMessengeNome || 'usuário'}, sua idade é {textMessengeIdade || '?'} anos e seu email é {textMessengeEmail || '?'}
+                </Mensagem>
+            </div>
+        </section>
     );
 }
 
